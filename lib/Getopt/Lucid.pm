@@ -975,7 +975,7 @@ In practice, this means that the specification need not use dashes, but if
 used on the command line, they will be treated appropriately.
 
 Alternatively, Getopt::Lucid can operate in "strict" mode by setting
-the C<strict> parameter to a true value.  In strict mode, option names
+the {strict} parameter to a true value.  In strict mode, option names
 and aliases may still be specified in any of the three styles, but they
 will only be parsed from the command line if they are used in exactly
 the same style.  E.g., given the name and alias "--help|-h", only "--help"
@@ -1427,7 +1427,7 @@ function, {getopt} takes the same arguments as {new}, calls {new} to create
 an object before parsing the command line, and returns the new object.  When
 called as an object method, it takes no arguments and returns itself.
 
-For convenience, C<getopts()> is a alias for C<getopt()>.
+For convenience, {getopts()} is a alias for {getopt()}.
 
 == merge_defaults()
 
